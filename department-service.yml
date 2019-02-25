@@ -9,3 +9,18 @@ eureka:
 logging:
   pattern: 
     console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+spring:
+  rabbitmq:
+    host: 74.82.201.134
+    port: 5672
+    username: guest
+    password: guest
+
+age: 12
