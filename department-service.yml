@@ -27,6 +27,6 @@ spring:
   cloud:
     bus:
       trace:
-        enable: true
+        enabled: true
 
 age: 20
