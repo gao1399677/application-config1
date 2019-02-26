@@ -18,7 +18,8 @@ management:
 
 spring:
   rabbitmq:
-    host: 74.82.201.134 port: 5672
+    host: 74.82.201.134
+    port: 5672
     username: guest
     password: guest
 
