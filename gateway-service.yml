@@ -34,5 +34,6 @@ spring:
         predicates:
         - Path=/organization/**
         filters:
-          - GatewayTokenFilter1, GatewayTokenFilter
+          - GatewayTokenFilter1
+          - GatewayTokenFilter
           - RewritePath=/organization/(?<path>.*), /$\{path}
