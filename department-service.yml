@@ -12,7 +12,7 @@ logging:
 
 spring:
   rabbitmq:
-    host: 208.123.119.77
+    host: 149.129.79.216
     port: 5672
     username: guest
     password: guest
